@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TableMapComponent } from './table-map/table-map.component';
 import { SliderComponent } from './slider/slider.component';
+import { FooterComponent } from './footer/footer.component';
+import { PaypalComponent } from './paypal/paypal.component';
+import { SocialComponent } from './social/social.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { SliderComponent } from './slider/slider.component';
     AppComponent,
     NavbarComponent,
     TableMapComponent,
-    SliderComponent
+    SliderComponent,
+    FooterComponent,
+    PaypalComponent,
+    SocialComponent
 ],
   imports: [
     BrowserModule
